@@ -2,7 +2,6 @@
 
 A python program to download albums and songs with `AAC` codec in `.m4a` container format and music-videos upto 4K in `AVC` or `HEVC` codec in `.mp4` format from Apple Music. This python program uses the module called pywidevine that is a python implementation of Google's Widevine DRM (Digital Rights Management) CDM (Content Decryption Module). This doesn't support to download spatial audios (Dolby Atmos) and Apple Lossless audios (ALAC) because those are not protected with Widevine. They are protected with the FairPlay. [FairPlay](https://en.wikipedia.org/wiki/FairPlay) is a digital rights management (DRM) technology developed by Apple Inc.
 
-
 <center>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Downloader/main/assets/darkmode.png">
@@ -13,19 +12,19 @@ A python program to download albums and songs with `AAC` codec in `.m4a` contain
 
 # ! DISCLAIMER
 
-- __THIS REPOSITORY IS ONLY FOR EDUCATIONAL PURPOSES.__
+- **THIS REPOSITORY IS ONLY FOR EDUCATIONAL PURPOSES.**
 
 This will help you to understand how the Apple Music API works and how to deal with python scripts. You can use the source code to run and test this program or you can also use the compiled binary files from the [releases](https://github.com/dropcreations/Manzana-Apple-Music-Downloader/releases).
 
 ## Features
 
-- Can download __album__ urls.
-- Can download __song__ urls.
-- Can download __music-video__ urls.
-- Can download __playlist__ urls.
-- Can download __artist__ urls (all albums, singles, music-videos).
-- Can download __animated-cover__.
-- Can download __time-synced lyrics__ as `.lrc`.
+- Can download **album** urls.
+- Can download **song** urls.
+- Can download **music-video** urls.
+- Can download **playlist** urls.
+- Can download **artist** urls (all albums, singles, music-videos).
+- Can download **animated-cover**.
+- Can download **time-synced lyrics** as `.lrc`.
 
 ## Required
 
@@ -40,7 +39,7 @@ Make sure you have installed below in your PC or have added into the PATH.
 First of all you have to clone this project to your pc. If you're using git, you can do it simply by following command.
 
 ```
-git clone https://github.com/dropcreations/Manzana-Apple-Music-Downloader.git
+git clone https://github.com/dropcreations/Apple-Music-Downloader.git
 ```
 
 or you're not using git, just download the source code as a `.zip` file and extract it. Then go to the project directory.
@@ -51,11 +50,11 @@ This is a python program. So, you have to install `python` first (Recommended py
 pip install -r requirements.txt
 ```
 
-__NOTE:__ Use `python3` or `pip3` if `python` or `pip` doesn't work for you.
+**NOTE:** Use `python3` or `pip3` if `python` or `pip` doesn't work for you.
 
 Now you can run the program. In first run it will create all directories that need to deal inside the program. You have to fill the things that it will ask for. Firstly, it will ask to put your Widevine device files into `device` directory.
 
-So, copy your widevine device directory to it. it should contain `device_client_id_blob` and  `device_private_key` files. Example for the file structure inside the `device` directory given below.
+So, copy your widevine device directory to it. it should contain `device_client_id_blob` and `device_private_key` files. Example for the file structure inside the `device` directory given below.
 
 ```
 .
@@ -113,9 +112,9 @@ https://music.apple.com/url_04
 .
 ```
 
-__NOTE:__ When you're downloading an artist, if you want all items, just type `all` keyword when it ask for an ID.
+**NOTE:** When you're downloading an artist, if you want all items, just type `all` keyword when it ask for an ID.
 
-__THIS IS FOR PRIVATE USE ONLY. TAKE YOUR OWN RISK AND USE IT!__
+**THIS IS FOR PRIVATE USE ONLY. TAKE YOUR OWN RISK AND USE IT!**
 
 ### Demo
 
